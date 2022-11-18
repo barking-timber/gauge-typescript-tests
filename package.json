@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "tsc -p .",
-    "gauge": "gauge",
+    "gauge": "gauge run",
     "lint": "eslint --cache . --ext js,jsx,ts,tsx",
     "lint:fix": "yarn lint --fix"
   }
